@@ -1,7 +1,6 @@
 name: Build and push GE-Proton based image
 on:
-  release:
-    types: [published]
+  workflow_dispatch:
 jobs:
   build-push:
     runs-on: ubuntu-latest
